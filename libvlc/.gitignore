@@ -4,3 +4,5 @@ libs/
 obj/
 jni/libvlcjni-modules.h
 .settings
+jni/compat
+jni/obj
