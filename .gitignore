@@ -46,8 +46,8 @@ java-libs/WheelView/build/
 libVLC/build/
 
 #中间的文件
-x86
-armeabi-v7a
+/x86
+/armeabi-v7a
 android-libs
 android-headers
 .dbg
