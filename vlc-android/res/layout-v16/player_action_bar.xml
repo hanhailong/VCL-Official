@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <TextView
+        android:id="@+id/player_overlay_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toLeftOf="@+id/playlist_toggle"
+        android:gravity="center_horizontal"
+        android:layout_gravity="top"
+        android:background="?attr/status_bar_overlay"
+        android:text="@string/title"
+        android:textColor="#ffffff"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:textSize="15sp"
+        android:shadowColor="@color/black"
+        android:shadowDx="3"
+        android:shadowDy="3"
+        android:shadowRadius="1.5" />
+
+    <ImageView
+        android:id="@+id/playlist_toggle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:src="@drawable/ic_playlist_video"
+        android:focusable="true"
+        android:visibility="gone"/>
+</RelativeLayout>
